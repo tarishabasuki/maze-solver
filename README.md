@@ -15,6 +15,7 @@ The Maze Solver is an engaging visual tool that lets players experiment with and
 ## Features
 
 1. Grid Initialization
+
    When the program starts, it opens a Pygame window and initializes a grid based on the width and height from “config.py”. Each grid cell represents a possible position an agent can move to.
    - Empty cells (white): free to move
    - Wall (black): obstacle, cannot be passed
@@ -22,6 +23,7 @@ The Maze Solver is an engaging visual tool that lets players experiment with and
    - End cell (red): user-defined goal
 
 2. User Interaction / Setup Phase
+
    Before running an algorithm, the user can set up the grid by:
    - Clicking to place the start point (green).
    - Clicking to place the end point (red).
@@ -30,6 +32,7 @@ The Maze Solver is an engaging visual tool that lets players experiment with and
    This allows users to create layouts and test algorithm behaviour in different scenarios.
 
 3. Algorithm Selection
+
    Once the setup is complete, the user can press a key to run a specific pathfinding algorithm:
 
    | Key | Algorithm |
@@ -42,6 +45,7 @@ The Maze Solver is an engaging visual tool that lets players experiment with and
    The selected algorithm will then begin searching for a path from the start to the end point in real-time.
 
 4. Search Visualization
+
    As the algorithm runs, the grid updates to show the search process:
    - Yellow cells: frontier – cells currently being considered
    - Gray cells: cells already been visited
@@ -53,9 +57,11 @@ The Maze Solver is an engaging visual tool that lets players experiment with and
    - Which areas are searched and revisited.
 
 5. Reset Option
+
    At any time, pressing R will reset the entire board, allowing users to start over with a new setup.
 
 6. Result Output
+
    After the algorithm finishes:
    - If a path is found, it is drawn in blue, and the path length and time taken are displayed.
    - If no path exists, a message is shown indicating that no solution is possible with the current setup.
