@@ -26,6 +26,7 @@ The Maze Solver is an engaging visual tool that lets players experiment with and
    - Clicking to place the start point (green).
    - Clicking to place the end point (red).
    - Clicking or dragging to add/remove walls (black) to shape the maze.
+   
    This allows users to create layouts and test algorithm behaviour in different scenarios.
 
 3. Algorithm Selection
